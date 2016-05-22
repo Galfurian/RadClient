@@ -1,5 +1,4 @@
 # RadClient
-______________
 
 **Author**: Enrico Fraccaroli
 
