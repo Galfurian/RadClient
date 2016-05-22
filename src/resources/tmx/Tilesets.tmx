@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Head" tilewidth="32" tileheight="32" tilecount="5" columns="20">
+  <tile id="7">
+   <image width="32" height="32" source="armour/head/Bandana.gif"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="armour/head/Chain_Helmet.gif"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="armour/head/Leather_Helmet.gif"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="armour/head/Mystic_Turban.gif"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="armour/head/Soldier_Helmet.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="13" name="Feet" tilewidth="32" tileheight="32" tilecount="3" columns="0">
+  <tile id="4">
+   <image width="32" height="32" source="armour/feet/Leather_Boots.gif"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="armour/feet/Sandals.gif"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="armour/feet/Terra_Boots.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="20" name="Chest" tilewidth="32" tileheight="32" tilecount="3" columns="20">
+  <tile id="30">
+   <image width="32" height="32" source="armour/chest/Belted_Cape.gif"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="armour/chest/Green_Tunic.gif"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="armour/chest/Leather_Armor.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="53" name="Back" tilewidth="32" tileheight="32" tilecount="4" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="armour/back/cloak1_leather.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="armour/back/cloak2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="armour/back/cloak3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="armour/back/cloak4.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="57" name="Food" tilewidth="32" tileheight="32" tilecount="24" columns="20">
+  <tile id="0">
+   <image width="32" height="32" source="food/apple.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="food/apricot.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="food/banana.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="food/beef_jerky.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="food/bread_ration.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="food/cheese.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="food/choko.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="food/chunk.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="food/chunk_rotten.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="food/grape.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="food/honeycomb.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="food/lemon.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="food/lump_of_royal_jelly.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="food/lychee.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="food/meat_ration.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="food/orange.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="food/pear.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="food/piece_of_ambrosia.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="food/pizza.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="food/rambutan.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="food/sausage.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="food/snozzcumber.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="food/strawberry.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="food/sultana.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="82" name="Melee" tilewidth="32" tileheight="32" tilecount="5" columns="20">
+  <tile id="80">
+   <image width="32" height="32" source="handgear/melee/Obsidian_Knife.gif"/>
+  </tile>
+  <tile id="81">
+   <image width="32" height="32" source="handgear/melee/Axe.gif"/>
+  </tile>
+  <tile id="82">
+   <image width="32" height="32" source="handgear/melee/Machete.gif"/>
+  </tile>
+  <tile id="83">
+   <image width="32" height="32" source="handgear/melee/Mean_Paladin_Spear.gif"/>
+  </tile>
+  <tile id="84">
+   <image width="32" height="32" source="handgear/melee/Hunting_Spear.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="167" name="Ranged" tilewidth="32" tileheight="32" tilecount="4" columns="20">
+  <tile id="14">
+   <image width="32" height="32" source="handgear/ranged/Bow.gif"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="handgear/ranged/Crossbow.gif"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="handgear/ranged/cursor.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="handgear/ranged/shotgun.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="186" name="Shield" tilewidth="32" tileheight="32" tilecount="5" columns="20">
+  <tile id="9">
+   <image width="32" height="32" source="handgear/shield/Ancient_Shield.gif"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="handgear/shield/Brass_Shield.gif"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="handgear/shield/Copper_Shield.gif"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="handgear/shield/Studded_Shield.gif"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="handgear/shield/Wooden_Shield.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="200" name="Animals" tilewidth="32" tileheight="32" tilecount="105" columns="20">
+  <tile id="105">
+   <image width="32" height="32" source="creature/animal/alligator.png"/>
+  </tile>
+  <tile id="106">
+   <image width="32" height="32" source="creature/animal/alligator_baby.png"/>
+  </tile>
+  <tile id="107">
+   <image width="32" height="32" source="creature/animal/alligator_snapping_turtle.png"/>
+  </tile>
+  <tile id="108">
+   <image width="32" height="32" source="creature/animal/anaconda.png"/>
+  </tile>
+  <tile id="109">
+   <image width="32" height="32" source="creature/animal/bear.png"/>
+  </tile>
+  <tile id="110">
+   <image width="32" height="32" source="creature/animal/big_fish.png"/>
+  </tile>
+  <tile id="111">
+   <image width="32" height="32" source="creature/animal/black_bear.png"/>
+  </tile>
+  <tile id="112">
+   <image width="32" height="32" source="creature/animal/black_mamba.png"/>
+  </tile>
+  <tile id="113">
+   <image width="32" height="32" source="creature/animal/black_sheep.png"/>
+  </tile>
+  <tile id="114">
+   <image width="32" height="32" source="creature/animal/blink_frog.png"/>
+  </tile>
+  <tile id="115">
+   <image width="32" height="32" source="creature/animal/boring_beetle.png"/>
+  </tile>
+  <tile id="116">
+   <image width="32" height="32" source="creature/animal/boulder_beetle.png"/>
+  </tile>
+  <tile id="117">
+   <image width="32" height="32" source="creature/animal/brain_worm.png"/>
+  </tile>
+  <tile id="118">
+   <image width="32" height="32" source="creature/animal/bumblebee.png"/>
+  </tile>
+  <tile id="119">
+   <image width="32" height="32" source="creature/animal/butterfly.png"/>
+  </tile>
+  <tile id="120">
+   <image width="32" height="32" source="creature/animal/butterfly1.png"/>
+  </tile>
+  <tile id="121">
+   <image width="32" height="32" source="creature/animal/butterfly2.png"/>
+  </tile>
+  <tile id="122">
+   <image width="32" height="32" source="creature/animal/butterfly3.png"/>
+  </tile>
+  <tile id="123">
+   <image width="32" height="32" source="creature/animal/butterfly4.png"/>
+  </tile>
+  <tile id="124">
+   <image width="32" height="32" source="creature/animal/butterfly5.png"/>
+  </tile>
+  <tile id="125">
+   <image width="32" height="32" source="creature/animal/butterfly6.png"/>
+  </tile>
+  <tile id="126">
+   <image width="32" height="32" source="creature/animal/crocodile.png"/>
+  </tile>
+  <tile id="127">
+   <image width="32" height="32" source="creature/animal/death_yak.png"/>
+  </tile>
+  <tile id="128">
+   <image width="32" height="32" source="creature/animal/electric_eel.png"/>
+  </tile>
+  <tile id="129">
+   <image width="32" height="32" source="creature/animal/elephant.png"/>
+  </tile>
+  <tile id="130">
+   <image width="32" height="32" source="creature/animal/elephant_demonic.png"/>
+  </tile>
+  <tile id="131">
+   <image width="32" height="32" source="creature/animal/elephant_dire.png"/>
+  </tile>
+  <tile id="132">
+   <image width="32" height="32" source="creature/animal/elephant_slug.png"/>
+  </tile>
+  <tile id="133">
+   <image width="32" height="32" source="creature/animal/ghost_moth.png"/>
+  </tile>
+  <tile id="134">
+   <image width="32" height="32" source="creature/animal/giant_ant.png"/>
+  </tile>
+  <tile id="135">
+   <image width="32" height="32" source="creature/animal/giant_bat.png"/>
+  </tile>
+  <tile id="136">
+   <image width="32" height="32" source="creature/animal/giant_beetle.png"/>
+  </tile>
+  <tile id="137">
+   <image width="32" height="32" source="creature/animal/giant_blowfly.png"/>
+  </tile>
+  <tile id="138">
+   <image width="32" height="32" source="creature/animal/giant_centipede.png"/>
+  </tile>
+  <tile id="139">
+   <image width="32" height="32" source="creature/animal/giant_cockroach.png"/>
+  </tile>
+  <tile id="140">
+   <image width="32" height="32" source="creature/animal/giant_firefly.png"/>
+  </tile>
+  <tile id="141">
+   <image width="32" height="32" source="creature/animal/giant_frog.png"/>
+  </tile>
+  <tile id="142">
+   <image width="32" height="32" source="creature/animal/giant_gecko.png"/>
+  </tile>
+  <tile id="143">
+   <image width="32" height="32" source="creature/animal/giant_goldfish.png"/>
+  </tile>
+  <tile id="144">
+   <image width="32" height="32" source="creature/animal/giant_leech.png"/>
+  </tile>
+  <tile id="145">
+   <image width="32" height="32" source="creature/animal/giant_mite.png"/>
+  </tile>
+  <tile id="146">
+   <image width="32" height="32" source="creature/animal/giant_mosquito.png"/>
+  </tile>
+  <tile id="147">
+   <image width="32" height="32" source="creature/animal/giant_newt.png"/>
+  </tile>
+  <tile id="148">
+   <image width="32" height="32" source="creature/animal/giant_scorpion.png"/>
+  </tile>
+  <tile id="149">
+   <image width="32" height="32" source="creature/animal/giant_slug.png"/>
+  </tile>
+  <tile id="150">
+   <image width="32" height="32" source="creature/animal/giant_snail.png"/>
+  </tile>
+  <tile id="151">
+   <image width="32" height="32" source="creature/animal/giant_toad.png"/>
+  </tile>
+  <tile id="152">
+   <image width="32" height="32" source="creature/animal/gila_monster.png"/>
+  </tile>
+  <tile id="153">
+   <image width="32" height="32" source="creature/animal/green_rat.png"/>
+  </tile>
+  <tile id="154">
+   <image width="32" height="32" source="creature/animal/grey_rat.png"/>
+  </tile>
+  <tile id="155">
+   <image width="32" height="32" source="creature/animal/grizzly_bear.png"/>
+  </tile>
+  <tile id="156">
+   <image width="32" height="32" source="creature/animal/hell_hog.png"/>
+  </tile>
+  <tile id="157">
+   <image width="32" height="32" source="creature/animal/hell_hound.png"/>
+  </tile>
+  <tile id="158">
+   <image width="32" height="32" source="creature/animal/hog.png"/>
+  </tile>
+  <tile id="159">
+   <image width="32" height="32" source="creature/animal/hound.png"/>
+  </tile>
+  <tile id="160">
+   <image width="32" height="32" source="creature/animal/iguana.png"/>
+  </tile>
+  <tile id="161">
+   <image width="32" height="32" source="creature/animal/jackal.png"/>
+  </tile>
+  <tile id="162">
+   <image width="32" height="32" source="creature/animal/jellyfish.png"/>
+  </tile>
+  <tile id="163">
+   <image width="32" height="32" source="creature/animal/jumping_spider.png"/>
+  </tile>
+  <tile id="164">
+   <image width="32" height="32" source="creature/animal/killer_bee.png"/>
+  </tile>
+  <tile id="165">
+   <image width="32" height="32" source="creature/animal/killer_bee_larva.png"/>
+  </tile>
+  <tile id="166">
+   <image width="32" height="32" source="creature/animal/komodo_dragon.png"/>
+  </tile>
+  <tile id="167">
+   <image width="32" height="32" source="creature/animal/kraken_head.png"/>
+  </tile>
+  <tile id="168">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle1.png"/>
+  </tile>
+  <tile id="169">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle2.png"/>
+  </tile>
+  <tile id="170">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle3.png"/>
+  </tile>
+  <tile id="171">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle4.png"/>
+  </tile>
+  <tile id="172">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle5.png"/>
+  </tile>
+  <tile id="173">
+   <image width="32" height="32" source="creature/animal/kraken_tentacle6.png"/>
+  </tile>
+  <tile id="174">
+   <image width="32" height="32" source="creature/animal/lava_fish.png"/>
+  </tile>
+  <tile id="175">
+   <image width="32" height="32" source="creature/animal/lava_snake.png"/>
+  </tile>
+  <tile id="176">
+   <image width="32" height="32" source="creature/animal/lava_worm.png"/>
+  </tile>
+  <tile id="177">
+   <image width="32" height="32" source="creature/animal/moth_of_wrath.png"/>
+  </tile>
+  <tile id="178">
+   <image width="32" height="32" source="creature/animal/orange_rat.png"/>
+  </tile>
+  <tile id="179">
+   <image width="32" height="32" source="creature/animal/polar_bear.png"/>
+  </tile>
+  <tile id="180">
+   <image width="32" height="32" source="creature/animal/queen_ant.png"/>
+  </tile>
+  <tile id="181">
+   <image width="32" height="32" source="creature/animal/queen_bee.png"/>
+  </tile>
+  <tile id="182">
+   <image width="32" height="32" source="creature/animal/quokka.png"/>
+  </tile>
+  <tile id="183">
+   <image width="32" height="32" source="creature/animal/rat.png"/>
+  </tile>
+  <tile id="184">
+   <image width="32" height="32" source="creature/animal/red_wasp.png"/>
+  </tile>
+  <tile id="185">
+   <image width="32" height="32" source="creature/animal/redback.png"/>
+  </tile>
+  <tile id="186">
+   <image width="32" height="32" source="creature/animal/rock_worm.png"/>
+  </tile>
+  <tile id="187">
+   <image width="32" height="32" source="creature/animal/salamander.png"/>
+  </tile>
+  <tile id="188">
+   <image width="32" height="32" source="creature/animal/scorpion.png"/>
+  </tile>
+  <tile id="189">
+   <image width="32" height="32" source="creature/animal/sea_snake.png"/>
+  </tile>
+  <tile id="190">
+   <image width="32" height="32" source="creature/animal/shark.png"/>
+  </tile>
+  <tile id="191">
+   <image width="32" height="32" source="creature/animal/sheep.png"/>
+  </tile>
+  <tile id="192">
+   <image width="32" height="32" source="creature/animal/small_snake.png"/>
+  </tile>
+  <tile id="193">
+   <image width="32" height="32" source="creature/animal/snake.png"/>
+  </tile>
+  <tile id="194">
+   <image width="32" height="32" source="creature/animal/snapping_turtle.png"/>
+  </tile>
+  <tile id="195">
+   <image width="32" height="32" source="creature/animal/soldier_ant.png"/>
+  </tile>
+  <tile id="196">
+   <image width="32" height="32" source="creature/animal/spiny_frog.png"/>
+  </tile>
+  <tile id="197">
+   <image width="32" height="32" source="creature/animal/spiny_worm.png"/>
+  </tile>
+  <tile id="198">
+   <image width="32" height="32" source="creature/animal/swamp_worm.png"/>
+  </tile>
+  <tile id="199">
+   <image width="32" height="32" source="creature/animal/tarantella.png"/>
+  </tile>
+  <tile id="200">
+   <image width="32" height="32" source="creature/animal/trapdoor_spider.png"/>
+  </tile>
+  <tile id="201">
+   <image width="32" height="32" source="creature/animal/viper.png"/>
+  </tile>
+  <tile id="202">
+   <image width="32" height="32" source="creature/animal/war_dog.png"/>
+  </tile>
+  <tile id="203">
+   <image width="32" height="32" source="creature/animal/warg.png"/>
+  </tile>
+  <tile id="204">
+   <image width="32" height="32" source="creature/animal/water_moccasin.png"/>
+  </tile>
+  <tile id="205">
+   <image width="32" height="32" source="creature/animal/wolf.png"/>
+  </tile>
+  <tile id="206">
+   <image width="32" height="32" source="creature/animal/wolf_spider.png"/>
+  </tile>
+  <tile id="207">
+   <image width="32" height="32" source="creature/animal/worm.png"/>
+  </tile>
+  <tile id="208">
+   <image width="32" height="32" source="creature/animal/yak.png"/>
+  </tile>
+  <tile id="209">
+   <image width="32" height="32" source="creature/animal/yellow_wasp.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="410" name="Fungi" tilewidth="32" tileheight="32" tilecount="6" columns="20">
+  <tile id="6">
+   <image width="32" height="32" source="creature/fungi/giant_spore.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="creature/fungi/hyperactive_ballistomycete.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="creature/fungi/oklob_plant.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="creature/fungi/plant.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="creature/fungi/plant_crypt.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="creature/fungi/wandering_mushroom.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="422" name="Unique" tilewidth="32" tileheight="32" tilecount="69" columns="20">
+  <tile id="69">
+   <image width="32" height="32" source="creature/unique/agnes.png"/>
+  </tile>
+  <tile id="70">
+   <image width="32" height="32" source="creature/unique/aizul.png"/>
+  </tile>
+  <tile id="71">
+   <image width="32" height="32" source="creature/unique/antaeus.png"/>
+  </tile>
+  <tile id="72">
+   <image width="32" height="32" source="creature/unique/asmodeus.png"/>
+  </tile>
+  <tile id="73">
+   <image width="32" height="32" source="creature/unique/azrael.png"/>
+  </tile>
+  <tile id="74">
+   <image width="32" height="32" source="creature/unique/blork_the_orc.png"/>
+  </tile>
+  <tile id="75">
+   <image width="32" height="32" source="creature/unique/boris.png"/>
+  </tile>
+  <tile id="76">
+   <image width="32" height="32" source="creature/unique/cerebov.png"/>
+  </tile>
+  <tile id="77">
+   <image width="32" height="32" source="creature/unique/crazy_yiuf.png"/>
+  </tile>
+  <tile id="78">
+   <image width="32" height="32" source="creature/unique/dispater.png"/>
+  </tile>
+  <tile id="79">
+   <image width="32" height="32" source="creature/unique/dissolution.png"/>
+  </tile>
+  <tile id="80">
+   <image width="32" height="32" source="creature/unique/donald.png"/>
+  </tile>
+  <tile id="81">
+   <image width="32" height="32" source="creature/unique/duane.png"/>
+  </tile>
+  <tile id="82">
+   <image width="32" height="32" source="creature/unique/edmund.png"/>
+  </tile>
+  <tile id="83">
+   <image width="32" height="32" source="creature/unique/enchantress.png"/>
+  </tile>
+  <tile id="84">
+   <image width="32" height="32" source="creature/unique/ereshkigal.png"/>
+  </tile>
+  <tile id="85">
+   <image width="32" height="32" source="creature/unique/erica.png"/>
+  </tile>
+  <tile id="86">
+   <image width="32" height="32" source="creature/unique/erolcha.png"/>
+  </tile>
+  <tile id="87">
+   <image width="32" height="32" source="creature/unique/eustachio.png"/>
+  </tile>
+  <tile id="88">
+   <image width="32" height="32" source="creature/unique/frances.png"/>
+  </tile>
+  <tile id="89">
+   <image width="32" height="32" source="creature/unique/francis.png"/>
+  </tile>
+  <tile id="90">
+   <image width="32" height="32" source="creature/unique/frederick.png"/>
+  </tile>
+  <tile id="91">
+   <image width="32" height="32" source="creature/unique/gastronok.png"/>
+  </tile>
+  <tile id="92">
+   <image width="32" height="32" source="creature/unique/geryon.png"/>
+  </tile>
+  <tile id="93">
+   <image width="32" height="32" source="creature/unique/gloorx_vloq.png"/>
+  </tile>
+  <tile id="94">
+   <image width="32" height="32" source="creature/unique/grinder.png"/>
+  </tile>
+  <tile id="95">
+   <image width="32" height="32" source="creature/unique/grinder_cleaver.png"/>
+  </tile>
+  <tile id="96">
+   <image width="32" height="32" source="creature/unique/grum.png"/>
+  </tile>
+  <tile id="97">
+   <image width="32" height="32" source="creature/unique/harold.png"/>
+  </tile>
+  <tile id="98">
+   <image width="32" height="32" source="creature/unique/ijyb.png"/>
+  </tile>
+  <tile id="99">
+   <image width="32" height="32" source="creature/unique/ilsuiw.png"/>
+  </tile>
+  <tile id="100">
+   <image width="32" height="32" source="creature/unique/ilsuiw_water.png"/>
+  </tile>
+  <tile id="101">
+   <image width="32" height="32" source="creature/unique/jessica.png"/>
+  </tile>
+  <tile id="102">
+   <image width="32" height="32" source="creature/unique/joseph.png"/>
+  </tile>
+  <tile id="103">
+   <image width="32" height="32" source="creature/unique/josephine.png"/>
+  </tile>
+  <tile id="104">
+   <image width="32" height="32" source="creature/unique/jozef.png"/>
+  </tile>
+  <tile id="105">
+   <image width="32" height="32" source="creature/unique/kirke.png"/>
+  </tile>
+  <tile id="106">
+   <image width="32" height="32" source="creature/unique/lernaean_hydra.png"/>
+  </tile>
+  <tile id="107">
+   <image width="32" height="32" source="creature/unique/lom_lobon.png"/>
+  </tile>
+  <tile id="108">
+   <image width="32" height="32" source="creature/unique/louise.png"/>
+  </tile>
+  <tile id="109">
+   <image width="32" height="32" source="creature/unique/mara.png"/>
+  </tile>
+  <tile id="110">
+   <image width="32" height="32" source="creature/unique/margery.png"/>
+  </tile>
+  <tile id="111">
+   <image width="32" height="32" source="creature/unique/maud.png"/>
+  </tile>
+  <tile id="112">
+   <image width="32" height="32" source="creature/unique/maurice.png"/>
+  </tile>
+  <tile id="113">
+   <image width="32" height="32" source="creature/unique/menkaure.png"/>
+  </tile>
+  <tile id="114">
+   <image width="32" height="32" source="creature/unique/mnoleg.png"/>
+  </tile>
+  <tile id="115">
+   <image width="32" height="32" source="creature/unique/murray.png"/>
+  </tile>
+  <tile id="116">
+   <image width="32" height="32" source="creature/unique/nellie.png"/>
+  </tile>
+  <tile id="117">
+   <image width="32" height="32" source="creature/unique/nergalle.png"/>
+  </tile>
+  <tile id="118">
+   <image width="32" height="32" source="creature/unique/nessos.png"/>
+  </tile>
+  <tile id="119">
+   <image width="32" height="32" source="creature/unique/norbert.png"/>
+  </tile>
+  <tile id="120">
+   <image width="32" height="32" source="creature/unique/norris.png"/>
+  </tile>
+  <tile id="121">
+   <image width="32" height="32" source="creature/unique/polyphemus.png"/>
+  </tile>
+  <tile id="122">
+   <image width="32" height="32" source="creature/unique/prince_ribbit.png"/>
+  </tile>
+  <tile id="123">
+   <image width="32" height="32" source="creature/unique/psyche.png"/>
+  </tile>
+  <tile id="124">
+   <image width="32" height="32" source="creature/unique/purgy.png"/>
+  </tile>
+  <tile id="125">
+   <image width="32" height="32" source="creature/unique/roxanne.png"/>
+  </tile>
+  <tile id="126">
+   <image width="32" height="32" source="creature/unique/royal_jelly.png"/>
+  </tile>
+  <tile id="127">
+   <image width="32" height="32" source="creature/unique/rupert.png"/>
+  </tile>
+  <tile id="128">
+   <image width="32" height="32" source="creature/unique/saint_roka.png"/>
+  </tile>
+  <tile id="129">
+   <image width="32" height="32" source="creature/unique/serpent_of_hell.png"/>
+  </tile>
+  <tile id="130">
+   <image width="32" height="32" source="creature/unique/sigmund.png"/>
+  </tile>
+  <tile id="131">
+   <image width="32" height="32" source="creature/unique/snorg.png"/>
+  </tile>
+  <tile id="132">
+   <image width="32" height="32" source="creature/unique/sonja.png"/>
+  </tile>
+  <tile id="133">
+   <image width="32" height="32" source="creature/unique/terence.png"/>
+  </tile>
+  <tile id="134">
+   <image width="32" height="32" source="creature/unique/tiamat.png"/>
+  </tile>
+  <tile id="135">
+   <image width="32" height="32" source="creature/unique/urug.png"/>
+  </tile>
+  <tile id="136">
+   <image width="32" height="32" source="creature/unique/wiglaf.png"/>
+  </tile>
+  <tile id="137">
+   <image width="32" height="32" source="creature/unique/xtahua.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="560" name="Humanoid" tilewidth="32" tileheight="32" tilecount="5" columns="0">
+  <tile id="5">
+   <image width="32" height="32" source="creature/humanoid/ghoul.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="creature/humanoid/human.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="creature/humanoid/Man-Generic.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="creature/humanoid/mutant.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="creature/humanoid/Woman-Generic.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="570" name="Floor" tilewidth="32" tileheight="32" tilecount="146" columns="20">
+  <tile id="0">
+   <image width="32" height="32" source="environment/floor/bog_green0.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="environment/floor/bog_green1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="environment/floor/bog_green2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="environment/floor/bog_green3.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="environment/floor/cobble_blood1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="environment/floor/cobble_blood2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="environment/floor/cobble_blood3.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="environment/floor/cobble_blood4.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="environment/floor/cobble_blood5.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="environment/floor/cobble_blood6.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="environment/floor/cobble_blood7.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="environment/floor/cobble_blood8.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="environment/floor/cobble_blood9.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="environment/floor/cobble_blood10.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="environment/floor/cobble_blood11.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="environment/floor/cobble_blood12.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="environment/floor/crystal_floor0.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="environment/floor/crystal_floor1.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="environment/floor/crystal_floor2.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="environment/floor/crystal_floor3.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="environment/floor/crystal_floor4.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="environment/floor/crystal_floor5.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="environment/floor/dirt_e.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="environment/floor/dirt_full.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="environment/floor/dirt_n.png"/>
+  </tile>
+  <tile id="25">
+   <image width="32" height="32" source="environment/floor/dirt_ne.png"/>
+  </tile>
+  <tile id="26">
+   <image width="32" height="32" source="environment/floor/dirt_nw.png"/>
+  </tile>
+  <tile id="27">
+   <image width="32" height="32" source="environment/floor/dirt_s.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="32" source="environment/floor/dirt_se.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="environment/floor/dirt_sw.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="environment/floor/dirt_w.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="environment/floor/dirt0.png"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="environment/floor/dirt1.png"/>
+  </tile>
+  <tile id="33">
+   <image width="32" height="32" source="environment/floor/dirt2.png"/>
+  </tile>
+  <tile id="34">
+   <image width="32" height="32" source="environment/floor/floor_nerves0.png"/>
+  </tile>
+  <tile id="35">
+   <image width="32" height="32" source="environment/floor/floor_nerves1.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="32" source="environment/floor/floor_nerves2.png"/>
+  </tile>
+  <tile id="37">
+   <image width="32" height="32" source="environment/floor/floor_nerves3.png"/>
+  </tile>
+  <tile id="38">
+   <image width="32" height="32" source="environment/floor/floor_nerves4.png"/>
+  </tile>
+  <tile id="39">
+   <image width="32" height="32" source="environment/floor/floor_nerves5.png"/>
+  </tile>
+  <tile id="40">
+   <image width="32" height="32" source="environment/floor/floor_nerves6.png"/>
+  </tile>
+  <tile id="41">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone0.png"/>
+  </tile>
+  <tile id="42">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone1.png"/>
+  </tile>
+  <tile id="43">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone2.png"/>
+  </tile>
+  <tile id="44">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone3.png"/>
+  </tile>
+  <tile id="45">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone4.png"/>
+  </tile>
+  <tile id="46">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone5.png"/>
+  </tile>
+  <tile id="47">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone6.png"/>
+  </tile>
+  <tile id="48">
+   <image width="32" height="32" source="environment/floor/floor_sand_stone7.png"/>
+  </tile>
+  <tile id="49">
+   <image width="32" height="32" source="environment/floor/floor_vines0.png"/>
+  </tile>
+  <tile id="50">
+   <image width="32" height="32" source="environment/floor/floor_vines1.png"/>
+  </tile>
+  <tile id="51">
+   <image width="32" height="32" source="environment/floor/floor_vines2.png"/>
+  </tile>
+  <tile id="52">
+   <image width="32" height="32" source="environment/floor/floor_vines3.png"/>
+  </tile>
+  <tile id="53">
+   <image width="32" height="32" source="environment/floor/floor_vines4.png"/>
+  </tile>
+  <tile id="54">
+   <image width="32" height="32" source="environment/floor/floor_vines5.png"/>
+  </tile>
+  <tile id="55">
+   <image width="32" height="32" source="environment/floor/floor_vines6.png"/>
+  </tile>
+  <tile id="56">
+   <image width="32" height="32" source="environment/floor/grey_dirt0.png"/>
+  </tile>
+  <tile id="57">
+   <image width="32" height="32" source="environment/floor/grey_dirt1.png"/>
+  </tile>
+  <tile id="58">
+   <image width="32" height="32" source="environment/floor/grey_dirt2.png"/>
+  </tile>
+  <tile id="59">
+   <image width="32" height="32" source="environment/floor/grey_dirt3.png"/>
+  </tile>
+  <tile id="60">
+   <image width="32" height="32" source="environment/floor/grey_dirt4.png"/>
+  </tile>
+  <tile id="61">
+   <image width="32" height="32" source="environment/floor/grey_dirt5.png"/>
+  </tile>
+  <tile id="62">
+   <image width="32" height="32" source="environment/floor/grey_dirt6.png"/>
+  </tile>
+  <tile id="63">
+   <image width="32" height="32" source="environment/floor/grey_dirt7.png"/>
+  </tile>
+  <tile id="64">
+   <image width="32" height="32" source="environment/floor/hive0.png"/>
+  </tile>
+  <tile id="65">
+   <image width="32" height="32" source="environment/floor/hive1.png"/>
+  </tile>
+  <tile id="66">
+   <image width="32" height="32" source="environment/floor/hive2.png"/>
+  </tile>
+  <tile id="67">
+   <image width="32" height="32" source="environment/floor/hive3.png"/>
+  </tile>
+  <tile id="68">
+   <image width="32" height="32" source="environment/floor/ice0.png"/>
+  </tile>
+  <tile id="69">
+   <image width="32" height="32" source="environment/floor/ice1.png"/>
+  </tile>
+  <tile id="70">
+   <image width="32" height="32" source="environment/floor/ice2.png"/>
+  </tile>
+  <tile id="71">
+   <image width="32" height="32" source="environment/floor/ice3.png"/>
+  </tile>
+  <tile id="72">
+   <image width="32" height="32" source="environment/floor/lair0.png"/>
+  </tile>
+  <tile id="73">
+   <image width="32" height="32" source="environment/floor/lair1.png"/>
+  </tile>
+  <tile id="74">
+   <image width="32" height="32" source="environment/floor/lair2.png"/>
+  </tile>
+  <tile id="75">
+   <image width="32" height="32" source="environment/floor/lair3.png"/>
+  </tile>
+  <tile id="76">
+   <image width="32" height="32" source="environment/floor/lava0.png"/>
+  </tile>
+  <tile id="77">
+   <image width="32" height="32" source="environment/floor/lava1.png"/>
+  </tile>
+  <tile id="78">
+   <image width="32" height="32" source="environment/floor/lava2.png"/>
+  </tile>
+  <tile id="79">
+   <image width="32" height="32" source="environment/floor/lava3.png"/>
+  </tile>
+  <tile id="80">
+   <image width="32" height="32" source="environment/floor/marble_floor1.png"/>
+  </tile>
+  <tile id="81">
+   <image width="32" height="32" source="environment/floor/marble_floor2.png"/>
+  </tile>
+  <tile id="82">
+   <image width="32" height="32" source="environment/floor/marble_floor3.png"/>
+  </tile>
+  <tile id="83">
+   <image width="32" height="32" source="environment/floor/marble_floor4.png"/>
+  </tile>
+  <tile id="84">
+   <image width="32" height="32" source="environment/floor/marble_floor5.png"/>
+  </tile>
+  <tile id="85">
+   <image width="32" height="32" source="environment/floor/marble_floor6.png"/>
+  </tile>
+  <tile id="86">
+   <image width="32" height="32" source="environment/floor/mesh0.png"/>
+  </tile>
+  <tile id="87">
+   <image width="32" height="32" source="environment/floor/mesh1.png"/>
+  </tile>
+  <tile id="88">
+   <image width="32" height="32" source="environment/floor/mesh2.png"/>
+  </tile>
+  <tile id="89">
+   <image width="32" height="32" source="environment/floor/mesh3.png"/>
+  </tile>
+  <tile id="90">
+   <image width="32" height="32" source="environment/floor/pebble_brown0.png"/>
+  </tile>
+  <tile id="91">
+   <image width="32" height="32" source="environment/floor/pebble_brown1.png"/>
+  </tile>
+  <tile id="92">
+   <image width="32" height="32" source="environment/floor/pebble_brown2.png"/>
+  </tile>
+  <tile id="93">
+   <image width="32" height="32" source="environment/floor/pebble_brown3.png"/>
+  </tile>
+  <tile id="94">
+   <image width="32" height="32" source="environment/floor/pebble_brown4.png"/>
+  </tile>
+  <tile id="95">
+   <image width="32" height="32" source="environment/floor/pebble_brown5.png"/>
+  </tile>
+  <tile id="96">
+   <image width="32" height="32" source="environment/floor/pebble_brown6.png"/>
+  </tile>
+  <tile id="97">
+   <image width="32" height="32" source="environment/floor/pebble_brown7.png"/>
+  </tile>
+  <tile id="98">
+   <image width="32" height="32" source="environment/floor/pebble_brown8.png"/>
+  </tile>
+  <tile id="99">
+   <image width="32" height="32" source="environment/floor/pedestal_e.png"/>
+  </tile>
+  <tile id="100">
+   <image width="32" height="32" source="environment/floor/pedestal_full.png"/>
+  </tile>
+  <tile id="101">
+   <image width="32" height="32" source="environment/floor/pedestal_n.png"/>
+  </tile>
+  <tile id="102">
+   <image width="32" height="32" source="environment/floor/pedestal_ne.png"/>
+  </tile>
+  <tile id="103">
+   <image width="32" height="32" source="environment/floor/pedestal_nw.png"/>
+  </tile>
+  <tile id="104">
+   <image width="32" height="32" source="environment/floor/pedestal_s.png"/>
+  </tile>
+  <tile id="105">
+   <image width="32" height="32" source="environment/floor/pedestal_se.png"/>
+  </tile>
+  <tile id="106">
+   <image width="32" height="32" source="environment/floor/pedestal_sw.png"/>
+  </tile>
+  <tile id="107">
+   <image width="32" height="32" source="environment/floor/pedestal_w.png"/>
+  </tile>
+  <tile id="108">
+   <image width="32" height="32" source="environment/floor/rect_gray0.png"/>
+  </tile>
+  <tile id="109">
+   <image width="32" height="32" source="environment/floor/rect_gray1.png"/>
+  </tile>
+  <tile id="110">
+   <image width="32" height="32" source="environment/floor/rect_gray2.png"/>
+  </tile>
+  <tile id="111">
+   <image width="32" height="32" source="environment/floor/rect_gray3.png"/>
+  </tile>
+  <tile id="112">
+   <image width="32" height="32" source="environment/floor/rough_red0.png"/>
+  </tile>
+  <tile id="113">
+   <image width="32" height="32" source="environment/floor/rough_red1.png"/>
+  </tile>
+  <tile id="114">
+   <image width="32" height="32" source="environment/floor/rough_red2.png"/>
+  </tile>
+  <tile id="115">
+   <image width="32" height="32" source="environment/floor/rough_red3.png"/>
+  </tile>
+  <tile id="116">
+   <image width="32" height="32" source="environment/floor/sandstone_floor0.png"/>
+  </tile>
+  <tile id="117">
+   <image width="32" height="32" source="environment/floor/sandstone_floor1.png"/>
+  </tile>
+  <tile id="118">
+   <image width="32" height="32" source="environment/floor/sandstone_floor2.png"/>
+  </tile>
+  <tile id="119">
+   <image width="32" height="32" source="environment/floor/sandstone_floor3.png"/>
+  </tile>
+  <tile id="120">
+   <image width="32" height="32" source="environment/floor/sandstone_floor4.png"/>
+  </tile>
+  <tile id="121">
+   <image width="32" height="32" source="environment/floor/sandstone_floor5.png"/>
+  </tile>
+  <tile id="122">
+   <image width="32" height="32" source="environment/floor/sandstone_floor6.png"/>
+  </tile>
+  <tile id="123">
+   <image width="32" height="32" source="environment/floor/sandstone_floor7.png"/>
+  </tile>
+  <tile id="124">
+   <image width="32" height="32" source="environment/floor/sandstone_floor8.png"/>
+  </tile>
+  <tile id="125">
+   <image width="32" height="32" source="environment/floor/sandstone_floor9.png"/>
+  </tile>
+  <tile id="126">
+   <image width="32" height="32" source="environment/floor/snake0.png"/>
+  </tile>
+  <tile id="127">
+   <image width="32" height="32" source="environment/floor/snake1.png"/>
+  </tile>
+  <tile id="128">
+   <image width="32" height="32" source="environment/floor/snake2.png"/>
+  </tile>
+  <tile id="129">
+   <image width="32" height="32" source="environment/floor/snake3.png"/>
+  </tile>
+  <tile id="130">
+   <image width="32" height="32" source="environment/floor/swamp0.png"/>
+  </tile>
+  <tile id="131">
+   <image width="32" height="32" source="environment/floor/swamp1.png"/>
+  </tile>
+  <tile id="132">
+   <image width="32" height="32" source="environment/floor/swamp2.png"/>
+  </tile>
+  <tile id="133">
+   <image width="32" height="32" source="environment/floor/swamp3.png"/>
+  </tile>
+  <tile id="134">
+   <image width="32" height="32" source="environment/floor/tomb0.png"/>
+  </tile>
+  <tile id="135">
+   <image width="32" height="32" source="environment/floor/tomb1.png"/>
+  </tile>
+  <tile id="136">
+   <image width="32" height="32" source="environment/floor/tomb2.png"/>
+  </tile>
+  <tile id="137">
+   <image width="32" height="32" source="environment/floor/tomb3.png"/>
+  </tile>
+  <tile id="138">
+   <image width="32" height="32" source="environment/floor/tutorial_pad.png"/>
+  </tile>
+  <tile id="139">
+   <image width="32" height="32" source="environment/floor/volcanic_floor0.png"/>
+  </tile>
+  <tile id="140">
+   <image width="32" height="32" source="environment/floor/volcanic_floor1.png"/>
+  </tile>
+  <tile id="141">
+   <image width="32" height="32" source="environment/floor/volcanic_floor2.png"/>
+  </tile>
+  <tile id="142">
+   <image width="32" height="32" source="environment/floor/volcanic_floor3.png"/>
+  </tile>
+  <tile id="143">
+   <image width="32" height="32" source="environment/floor/volcanic_floor4.png"/>
+  </tile>
+  <tile id="144">
+   <image width="32" height="32" source="environment/floor/volcanic_floor5.png"/>
+  </tile>
+  <tile id="145">
+   <image width="32" height="32" source="environment/floor/volcanic_floor6.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="716" name="Gateway" tilewidth="32" tileheight="32" tilecount="4" columns="20">
+  <tile id="28">
+   <image width="32" height="32" source="environment/gateways/DungeonDoor-Open.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="environment/gateways/DungeonDoor-Broken.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="environment/gateways/DungeonDoor-Closed.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="environment/gateways/door.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="748" name="Grass" tilewidth="32" tileheight="32" tilecount="24" columns="20">
+  <tile id="0">
+   <image width="32" height="32" source="environment/grass/grass_e.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="environment/grass/grass_flowers_blue1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="environment/grass/grass_flowers_blue2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="environment/grass/grass_flowers_blue3.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="environment/grass/grass_flowers_red1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="environment/grass/grass_flowers_red2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="environment/grass/grass_flowers_red3.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="environment/grass/grass_flowers_yellow1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="environment/grass/grass_flowers_yellow2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="environment/grass/grass_flowers_yellow3.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="environment/grass/grass_full.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="environment/grass/grass_n.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="environment/grass/grass_ne.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="environment/grass/grass_nw.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="environment/grass/grass_s.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="environment/grass/grass_se.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="environment/grass/grass_sw.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="environment/grass/grass_w.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="environment/grass/grass0.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="environment/grass/grass0-dirt-mix1.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="environment/grass/grass0-dirt-mix2.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="environment/grass/grass0-dirt-mix3.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="environment/grass/grass1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="environment/grass/grass2.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="772" name="Wall" tilewidth="34" tileheight="34" tilecount="189" columns="20">
+  <tile id="0">
+   <image width="32" height="32" source="environment/wall/beehives0.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="environment/wall/beehives1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="environment/wall/beehives2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="environment/wall/beehives3.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="environment/wall/beehives4.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="environment/wall/beehives5.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="environment/wall/beehives6.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="environment/wall/beehives7.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="environment/wall/beehives8.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="environment/wall/beehives9.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="environment/wall/brick_brown0.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="environment/wall/brick_brown1.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="environment/wall/brick_brown2.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="environment/wall/brick_brown3.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="environment/wall/brick_brown4.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="environment/wall/brick_brown5.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="environment/wall/brick_brown6.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="environment/wall/brick_brown7.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="environment/wall/brick_brown-vines1.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="environment/wall/brick_brown-vines2.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="environment/wall/brick_brown-vines3.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="environment/wall/brick_brown-vines4.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="environment/wall/brick_dark0.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="environment/wall/brick_dark1.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="environment/wall/brick_dark2.png"/>
+  </tile>
+  <tile id="25">
+   <image width="32" height="32" source="environment/wall/brick_dark3.png"/>
+  </tile>
+  <tile id="26">
+   <image width="32" height="32" source="environment/wall/brick_dark4.png"/>
+  </tile>
+  <tile id="27">
+   <image width="32" height="32" source="environment/wall/brick_dark5.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="32" source="environment/wall/brick_dark6.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="environment/wall/brick_gray0.png"/>
+  </tile>
+  <tile id="30">
+   <image width="32" height="32" source="environment/wall/brick_gray1.png"/>
+  </tile>
+  <tile id="31">
+   <image width="32" height="32" source="environment/wall/brick_gray2.png"/>
+  </tile>
+  <tile id="32">
+   <image width="32" height="32" source="environment/wall/brick_gray3.png"/>
+  </tile>
+  <tile id="33">
+   <image width="32" height="32" source="environment/wall/crystal_wall00.png"/>
+  </tile>
+  <tile id="34">
+   <image width="32" height="32" source="environment/wall/crystal_wall01.png"/>
+  </tile>
+  <tile id="35">
+   <image width="32" height="32" source="environment/wall/crystal_wall02.png"/>
+  </tile>
+  <tile id="36">
+   <image width="32" height="32" source="environment/wall/crystal_wall03.png"/>
+  </tile>
+  <tile id="37">
+   <image width="32" height="32" source="environment/wall/crystal_wall04.png"/>
+  </tile>
+  <tile id="38">
+   <image width="32" height="32" source="environment/wall/crystal_wall05.png"/>
+  </tile>
+  <tile id="39">
+   <image width="32" height="32" source="environment/wall/crystal_wall06.png"/>
+  </tile>
+  <tile id="40">
+   <image width="32" height="32" source="environment/wall/crystal_wall07.png"/>
+  </tile>
+  <tile id="41">
+   <image width="32" height="32" source="environment/wall/crystal_wall08.png"/>
+  </tile>
+  <tile id="42">
+   <image width="32" height="32" source="environment/wall/crystal_wall09.png"/>
+  </tile>
+  <tile id="43">
+   <image width="32" height="32" source="environment/wall/crystal_wall10.png"/>
+  </tile>
+  <tile id="44">
+   <image width="32" height="32" source="environment/wall/crystal_wall11.png"/>
+  </tile>
+  <tile id="45">
+   <image width="32" height="32" source="environment/wall/crystal_wall12.png"/>
+  </tile>
+  <tile id="46">
+   <image width="32" height="32" source="environment/wall/crystal_wall13.png"/>
+  </tile>
+  <tile id="47">
+   <image width="32" height="32" source="environment/wall/dngn_green_crystal_wall.png"/>
+  </tile>
+  <tile id="48">
+   <image width="32" height="32" source="environment/wall/dngn_metal_wall.png"/>
+  </tile>
+  <tile id="49">
+   <image width="32" height="32" source="environment/wall/dngn_metal_wall_brown.png"/>
+  </tile>
+  <tile id="50">
+   <image width="32" height="32" source="environment/wall/dngn_metal_wall_cracked.png"/>
+  </tile>
+  <tile id="51">
+   <image width="32" height="32" source="environment/wall/dngn_mirrored_wall.png"/>
+  </tile>
+  <tile id="52">
+   <image width="32" height="32" source="environment/wall/dngn_transparent_wall.png"/>
+  </tile>
+  <tile id="53">
+   <image width="34" height="34" source="environment/wall/dngn_wax_wall.png"/>
+  </tile>
+  <tile id="54">
+   <image width="32" height="32" source="environment/wall/hive0.png"/>
+  </tile>
+  <tile id="55">
+   <image width="32" height="32" source="environment/wall/hive1.png"/>
+  </tile>
+  <tile id="56">
+   <image width="32" height="32" source="environment/wall/hive2.png"/>
+  </tile>
+  <tile id="57">
+   <image width="32" height="32" source="environment/wall/hive3.png"/>
+  </tile>
+  <tile id="58">
+   <image width="32" height="32" source="environment/wall/lair0.png"/>
+  </tile>
+  <tile id="59">
+   <image width="32" height="32" source="environment/wall/lair1.png"/>
+  </tile>
+  <tile id="60">
+   <image width="32" height="32" source="environment/wall/lair2.png"/>
+  </tile>
+  <tile id="61">
+   <image width="32" height="32" source="environment/wall/lair3.png"/>
+  </tile>
+  <tile id="62">
+   <image width="32" height="32" source="environment/wall/marble_wall1.png"/>
+  </tile>
+  <tile id="63">
+   <image width="32" height="32" source="environment/wall/marble_wall2.png"/>
+  </tile>
+  <tile id="64">
+   <image width="32" height="32" source="environment/wall/marble_wall3.png"/>
+  </tile>
+  <tile id="65">
+   <image width="32" height="32" source="environment/wall/marble_wall4.png"/>
+  </tile>
+  <tile id="66">
+   <image width="32" height="32" source="environment/wall/marble_wall5.png"/>
+  </tile>
+  <tile id="67">
+   <image width="32" height="32" source="environment/wall/marble_wall6.png"/>
+  </tile>
+  <tile id="68">
+   <image width="32" height="32" source="environment/wall/marble_wall7.png"/>
+  </tile>
+  <tile id="69">
+   <image width="32" height="32" source="environment/wall/marble_wall8.png"/>
+  </tile>
+  <tile id="70">
+   <image width="32" height="32" source="environment/wall/marble_wall9.png"/>
+  </tile>
+  <tile id="71">
+   <image width="32" height="32" source="environment/wall/marble_wall10.png"/>
+  </tile>
+  <tile id="72">
+   <image width="32" height="32" source="environment/wall/marble_wall11.png"/>
+  </tile>
+  <tile id="73">
+   <image width="32" height="32" source="environment/wall/marble_wall12.png"/>
+  </tile>
+  <tile id="74">
+   <image width="32" height="32" source="environment/wall/pebble_red0.png"/>
+  </tile>
+  <tile id="75">
+   <image width="32" height="32" source="environment/wall/pebble_red1.png"/>
+  </tile>
+  <tile id="76">
+   <image width="32" height="32" source="environment/wall/pebble_red2.png"/>
+  </tile>
+  <tile id="77">
+   <image width="32" height="32" source="environment/wall/pebble_red3.png"/>
+  </tile>
+  <tile id="78">
+   <image width="32" height="32" source="environment/wall/relief0.png"/>
+  </tile>
+  <tile id="79">
+   <image width="32" height="32" source="environment/wall/relief1.png"/>
+  </tile>
+  <tile id="80">
+   <image width="32" height="32" source="environment/wall/relief2.png"/>
+  </tile>
+  <tile id="81">
+   <image width="32" height="32" source="environment/wall/relief3.png"/>
+  </tile>
+  <tile id="82">
+   <image width="32" height="32" source="environment/wall/sandstone_wall0.png"/>
+  </tile>
+  <tile id="83">
+   <image width="32" height="32" source="environment/wall/sandstone_wall1.png"/>
+  </tile>
+  <tile id="84">
+   <image width="32" height="32" source="environment/wall/sandstone_wall2.png"/>
+  </tile>
+  <tile id="85">
+   <image width="32" height="32" source="environment/wall/sandstone_wall3.png"/>
+  </tile>
+  <tile id="86">
+   <image width="32" height="32" source="environment/wall/sandstone_wall4.png"/>
+  </tile>
+  <tile id="87">
+   <image width="32" height="32" source="environment/wall/sandstone_wall5.png"/>
+  </tile>
+  <tile id="88">
+   <image width="32" height="32" source="environment/wall/sandstone_wall6.png"/>
+  </tile>
+  <tile id="89">
+   <image width="32" height="32" source="environment/wall/sandstone_wall7.png"/>
+  </tile>
+  <tile id="90">
+   <image width="32" height="32" source="environment/wall/sandstone_wall8.png"/>
+  </tile>
+  <tile id="91">
+   <image width="32" height="32" source="environment/wall/sandstone_wall9.png"/>
+  </tile>
+  <tile id="92">
+   <image width="32" height="32" source="environment/wall/shadow_e.png"/>
+  </tile>
+  <tile id="93">
+   <image width="32" height="32" source="environment/wall/shadow_n.png"/>
+  </tile>
+  <tile id="94">
+   <image width="32" height="32" source="environment/wall/shadow_ne.png"/>
+  </tile>
+  <tile id="95">
+   <image width="32" height="32" source="environment/wall/shadow_nw.png"/>
+  </tile>
+  <tile id="96">
+   <image width="32" height="32" source="environment/wall/shadow_w.png"/>
+  </tile>
+  <tile id="97">
+   <image width="32" height="32" source="environment/wall/slime0.png"/>
+  </tile>
+  <tile id="98">
+   <image width="32" height="32" source="environment/wall/slime1.png"/>
+  </tile>
+  <tile id="99">
+   <image width="32" height="32" source="environment/wall/slime2.png"/>
+  </tile>
+  <tile id="100">
+   <image width="32" height="32" source="environment/wall/slime3.png"/>
+  </tile>
+  <tile id="101">
+   <image width="32" height="32" source="environment/wall/stone_black_marked0.png"/>
+  </tile>
+  <tile id="102">
+   <image width="32" height="32" source="environment/wall/stone_black_marked1.png"/>
+  </tile>
+  <tile id="103">
+   <image width="32" height="32" source="environment/wall/stone_black_marked2.png"/>
+  </tile>
+  <tile id="104">
+   <image width="32" height="32" source="environment/wall/stone_black_marked3.png"/>
+  </tile>
+  <tile id="105">
+   <image width="32" height="32" source="environment/wall/stone_black_marked4.png"/>
+  </tile>
+  <tile id="106">
+   <image width="32" height="32" source="environment/wall/stone_black_marked5.png"/>
+  </tile>
+  <tile id="107">
+   <image width="32" height="32" source="environment/wall/stone_black_marked6.png"/>
+  </tile>
+  <tile id="108">
+   <image width="32" height="32" source="environment/wall/stone_black_marked7.png"/>
+  </tile>
+  <tile id="109">
+   <image width="32" height="32" source="environment/wall/stone_black_marked8.png"/>
+  </tile>
+  <tile id="110">
+   <image width="32" height="32" source="environment/wall/stone_brick1.png"/>
+  </tile>
+  <tile id="111">
+   <image width="32" height="32" source="environment/wall/stone_brick2.png"/>
+  </tile>
+  <tile id="112">
+   <image width="32" height="32" source="environment/wall/stone_brick3.png"/>
+  </tile>
+  <tile id="113">
+   <image width="32" height="32" source="environment/wall/stone_brick4.png"/>
+  </tile>
+  <tile id="114">
+   <image width="32" height="32" source="environment/wall/stone_brick5.png"/>
+  </tile>
+  <tile id="115">
+   <image width="32" height="32" source="environment/wall/stone_brick6.png"/>
+  </tile>
+  <tile id="116">
+   <image width="32" height="32" source="environment/wall/stone_brick7.png"/>
+  </tile>
+  <tile id="117">
+   <image width="32" height="32" source="environment/wall/stone_brick8.png"/>
+  </tile>
+  <tile id="118">
+   <image width="32" height="32" source="environment/wall/stone_brick9.png"/>
+  </tile>
+  <tile id="119">
+   <image width="32" height="32" source="environment/wall/stone_brick10.png"/>
+  </tile>
+  <tile id="120">
+   <image width="32" height="32" source="environment/wall/stone_brick11.png"/>
+  </tile>
+  <tile id="121">
+   <image width="32" height="32" source="environment/wall/stone_brick12.png"/>
+  </tile>
+  <tile id="122">
+   <image width="32" height="32" source="environment/wall/stone_dark0.png"/>
+  </tile>
+  <tile id="123">
+   <image width="32" height="32" source="environment/wall/stone_dark1.png"/>
+  </tile>
+  <tile id="124">
+   <image width="32" height="32" source="environment/wall/stone_dark2.png"/>
+  </tile>
+  <tile id="125">
+   <image width="32" height="32" source="environment/wall/stone_dark3.png"/>
+  </tile>
+  <tile id="126">
+   <image width="32" height="32" source="environment/wall/stone_gray0.png"/>
+  </tile>
+  <tile id="127">
+   <image width="32" height="32" source="environment/wall/stone_gray1.png"/>
+  </tile>
+  <tile id="128">
+   <image width="32" height="32" source="environment/wall/stone_gray2.png"/>
+  </tile>
+  <tile id="129">
+   <image width="32" height="32" source="environment/wall/stone_gray3.png"/>
+  </tile>
+  <tile id="130">
+   <image width="32" height="32" source="environment/wall/stone2_brown0.png"/>
+  </tile>
+  <tile id="131">
+   <image width="32" height="32" source="environment/wall/stone2_brown1.png"/>
+  </tile>
+  <tile id="132">
+   <image width="32" height="32" source="environment/wall/stone2_brown2.png"/>
+  </tile>
+  <tile id="133">
+   <image width="32" height="32" source="environment/wall/stone2_brown3.png"/>
+  </tile>
+  <tile id="134">
+   <image width="32" height="32" source="environment/wall/stone2_dark0.png"/>
+  </tile>
+  <tile id="135">
+   <image width="32" height="32" source="environment/wall/stone2_dark1.png"/>
+  </tile>
+  <tile id="136">
+   <image width="32" height="32" source="environment/wall/stone2_dark2.png"/>
+  </tile>
+  <tile id="137">
+   <image width="32" height="32" source="environment/wall/stone2_dark3.png"/>
+  </tile>
+  <tile id="138">
+   <image width="32" height="32" source="environment/wall/stone2_gray0.png"/>
+  </tile>
+  <tile id="139">
+   <image width="32" height="32" source="environment/wall/stone2_gray1.png"/>
+  </tile>
+  <tile id="140">
+   <image width="32" height="32" source="environment/wall/stone2_gray2.png"/>
+  </tile>
+  <tile id="141">
+   <image width="32" height="32" source="environment/wall/stone2_gray3.png"/>
+  </tile>
+  <tile id="142">
+   <image width="32" height="32" source="environment/wall/tomb0.png"/>
+  </tile>
+  <tile id="143">
+   <image width="32" height="32" source="environment/wall/tomb1.png"/>
+  </tile>
+  <tile id="144">
+   <image width="32" height="32" source="environment/wall/tomb2.png"/>
+  </tile>
+  <tile id="145">
+   <image width="32" height="32" source="environment/wall/tomb3.png"/>
+  </tile>
+  <tile id="146">
+   <image width="32" height="32" source="environment/wall/tree1_lightred.png"/>
+  </tile>
+  <tile id="147">
+   <image width="32" height="32" source="environment/wall/tree1_red.png"/>
+  </tile>
+  <tile id="148">
+   <image width="32" height="32" source="environment/wall/tree1_yellow.png"/>
+  </tile>
+  <tile id="149">
+   <image width="32" height="32" source="environment/wall/tree2_lightred.png"/>
+  </tile>
+  <tile id="150">
+   <image width="32" height="32" source="environment/wall/tree2_red.png"/>
+  </tile>
+  <tile id="151">
+   <image width="32" height="32" source="environment/wall/tree2_yellow.png"/>
+  </tile>
+  <tile id="152">
+   <image width="32" height="32" source="environment/wall/undead0.png"/>
+  </tile>
+  <tile id="153">
+   <image width="32" height="32" source="environment/wall/undead1.png"/>
+  </tile>
+  <tile id="154">
+   <image width="32" height="32" source="environment/wall/undead2.png"/>
+  </tile>
+  <tile id="155">
+   <image width="32" height="32" source="environment/wall/undead3.png"/>
+  </tile>
+  <tile id="156">
+   <image width="32" height="32" source="environment/wall/vault0.png"/>
+  </tile>
+  <tile id="157">
+   <image width="32" height="32" source="environment/wall/vault1.png"/>
+  </tile>
+  <tile id="158">
+   <image width="32" height="32" source="environment/wall/vault2.png"/>
+  </tile>
+  <tile id="159">
+   <image width="32" height="32" source="environment/wall/vault3.png"/>
+  </tile>
+  <tile id="160">
+   <image width="32" height="32" source="environment/wall/volcanic_wall0.png"/>
+  </tile>
+  <tile id="161">
+   <image width="32" height="32" source="environment/wall/volcanic_wall1.png"/>
+  </tile>
+  <tile id="162">
+   <image width="32" height="32" source="environment/wall/volcanic_wall2.png"/>
+  </tile>
+  <tile id="163">
+   <image width="32" height="32" source="environment/wall/volcanic_wall3.png"/>
+  </tile>
+  <tile id="164">
+   <image width="32" height="32" source="environment/wall/volcanic_wall4.png"/>
+  </tile>
+  <tile id="165">
+   <image width="32" height="32" source="environment/wall/volcanic_wall5.png"/>
+  </tile>
+  <tile id="166">
+   <image width="32" height="32" source="environment/wall/volcanic_wall6.png"/>
+  </tile>
+  <tile id="167">
+   <image width="32" height="32" source="environment/wall/wall_flesh0.png"/>
+  </tile>
+  <tile id="168">
+   <image width="32" height="32" source="environment/wall/wall_flesh1.png"/>
+  </tile>
+  <tile id="169">
+   <image width="32" height="32" source="environment/wall/wall_flesh2.png"/>
+  </tile>
+  <tile id="170">
+   <image width="32" height="32" source="environment/wall/wall_flesh3.png"/>
+  </tile>
+  <tile id="171">
+   <image width="32" height="32" source="environment/wall/wall_flesh4.png"/>
+  </tile>
+  <tile id="172">
+   <image width="32" height="32" source="environment/wall/wall_flesh5.png"/>
+  </tile>
+  <tile id="173">
+   <image width="32" height="32" source="environment/wall/wall_flesh6.png"/>
+  </tile>
+  <tile id="174">
+   <image width="32" height="32" source="environment/wall/wall_vines0.png"/>
+  </tile>
+  <tile id="175">
+   <image width="32" height="32" source="environment/wall/wall_vines1.png"/>
+  </tile>
+  <tile id="176">
+   <image width="32" height="32" source="environment/wall/wall_vines2.png"/>
+  </tile>
+  <tile id="177">
+   <image width="32" height="32" source="environment/wall/wall_vines3.png"/>
+  </tile>
+  <tile id="178">
+   <image width="32" height="32" source="environment/wall/wall_vines4.png"/>
+  </tile>
+  <tile id="179">
+   <image width="32" height="32" source="environment/wall/wall_vines5.png"/>
+  </tile>
+  <tile id="180">
+   <image width="32" height="32" source="environment/wall/wall_vines6.png"/>
+  </tile>
+  <tile id="181">
+   <image width="32" height="32" source="environment/wall/wall_yellow_rock0.png"/>
+  </tile>
+  <tile id="182">
+   <image width="32" height="32" source="environment/wall/wall_yellow_rock1.png"/>
+  </tile>
+  <tile id="183">
+   <image width="32" height="32" source="environment/wall/wall_yellow_rock2.png"/>
+  </tile>
+  <tile id="184">
+   <image width="32" height="32" source="environment/wall/wall_yellow_rock3.png"/>
+  </tile>
+  <tile id="185">
+   <image width="32" height="32" source="environment/wall/zot_blue0.png"/>
+  </tile>
+  <tile id="186">
+   <image width="32" height="32" source="environment/wall/zot_blue1.png"/>
+  </tile>
+  <tile id="187">
+   <image width="32" height="32" source="environment/wall/zot_blue2.png"/>
+  </tile>
+  <tile id="188">
+   <image width="32" height="32" source="environment/wall/zot_blue3.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="961" name="Water" tilewidth="32" tileheight="32" tilecount="3" columns="20">
+  <tile id="22">
+   <image width="32" height="32" source="environment/water/dngn_shallow_water.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="environment/water/dngn_shallow_water_disturbance.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="environment/water/dngn_shallow_water_disturbance2.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="986" name="Ingots" tilewidth="32" tileheight="32" tilecount="2" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/ingots/icon_resource_metal_copper_32.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="items/ingots/icon_resource_metal_silver_32.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="988" name="Metals" tilewidth="32" tileheight="32" tilecount="10" columns="20">
+  <tile id="0">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Dull_Copper01_32.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Dull_Iron01_32.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Dull_Tint01_32.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Dull_Tungsten01_32.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Emissive_Etherium01_32.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Shiny_Cobalt01_32.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Shiny_Gold01_32.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Shiny_Mithril01_32.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Shiny_Rubicite01_32.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="items/metals/icon_props_Biome_Generic_Loot_Metals_Shiny_Silver01_32.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="998" name="Planks" tilewidth="32" tileheight="32" tilecount="3" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/planks/icon_resource_wood_planks_burled_32.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="items/planks/icon_resource_wood_planks_plain_32.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="items/planks/icon_resource_wood_planks_striped_32.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1001" name="Coins" tilewidth="32" tileheight="32" tilecount="3" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/coins/coin_copper.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="items/coins/coin_gold.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="items/coins/coin_silver.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1004" name="Tools" tilewidth="32" tileheight="32" tilecount="7" columns="20">
+  <tile id="2">
+   <image width="32" height="32" source="items/tools/Pick.gif"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="items/tools/Hammer.gif"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="items/tools/Shovel.gif"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="items/tools/Saw.gif"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="items/tools/Sickle.gif"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="items/tools/Small_Axe.gif"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="items/tools/Wooden_Stake.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1016" name="Trees" tilewidth="32" tileheight="32" tilecount="3" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="environment/tree/tree1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="environment/tree/tree2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="environment/tree/tree3.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1019" name="Stairs" tilewidth="32" tileheight="32" tilecount="5" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="environment/stairs/stone_stairs_down.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="environment/stairs/stone_stairs_up.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="environment/stairs/wood_stairs_down.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="environment/stairs/wood_stairs_up.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="environment/stairs/pit.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1024" name="Corpses" tilewidth="32" tileheight="32" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/corpses/bone.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1025" name="Leg" tilewidth="32" tileheight="32" tilecount="3" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="armour/leg/blue_legs.gif"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="armour/leg/leather_legs.gif"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="armour/leg/pirate_legs.gif"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1028" name="Log" tilewidth="32" tileheight="32" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/log/Logs.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1029" name="Vein" tilewidth="32" tileheight="32" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="items/vein/Black_Crystal.gif"/>
+  </tile>
+ </tileset>
+ <layer name="Chest" width="20" height="20" visible="0">
+  <data encoding="base64">
+   MwAAADQAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Head" width="20" height="20" visible="0">
+  <data encoding="base64">
+   CAAAAAsAAAAKAAAADAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Feet" width="20" height="20" visible="0">
+  <data encoding="base64">
+   EgAAABEAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Back" width="20" height="20" visible="0">
+  <data encoding="base64">
+   NQAAADYAAAA3AAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Food" width="20" height="20" visible="0">
+  <data encoding="base64">
+   OQAAADoAAAA7AAAAPAAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoAAAAAAAAAAAAAAAAAAABOAAAATwAAAFAAAABRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Melee" width="20" height="20" visible="0">
+  <data encoding="base64">
+   ogAAAKMAAACkAAAApQAAAKYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Ranged" width="20" height="20" visible="0">
+  <data encoding="base64">
+   tQAAALYAAAC4AAAAuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Shield" width="20" height="20" visible="0">
+  <data encoding="base64">
+   xwAAAMYAAADFAAAAwwAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Animal" width="20" height="20" visible="0">
+  <data encoding="base64">
+   MQEAADIBAAAzAQAANAEAADUBAAA2AQAANwEAADgBAAA5AQAAOgEAADsBAAA8AQAAPQEAAD4BAAA/AQAAQAEAAEEBAABCAQAAQwEAAEQBAABFAQAARgEAAEcBAABIAQAASQEAAEoBAABLAQAATAEAAE0BAABOAQAATwEAAFABAABRAQAAUgEAAFMBAABUAQAAVQEAAFYBAABXAQAAWAEAAFkBAABaAQAAWwEAAFwBAABdAQAAXgEAAF8BAABgAQAAYQEAAGIBAABjAQAAZAEAAGUBAABmAQAAZwEAAGgBAABpAQAAagEAAGsBAABsAQAAbQEAAG4BAABvAQAAcAEAAHEBAAByAQAAcwEAAHQBAAB1AQAAdgEAAHcBAAB4AQAAeQEAAHoBAAB7AQAAfAEAAH0BAAB+AQAAfwEAAIABAACBAQAAggEAAIMBAACEAQAAhQEAAIYBAACHAQAAiAEAAIkBAACKAQAAiwEAAIwBAACNAQAAjgEAAI8BAACQAQAAkQEAAJIBAACTAQAAlAEAAJUBAACWAQAAlwEAAJgBAACZAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Fungi" width="20" height="20" visible="0">
+  <data encoding="base64">
+   oAEAAKEBAACiAQAAowEAAKQBAAClAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Unique" width="20" height="20" visible="0">
+  <data encoding="base64">
+   6wEAAOwBAADtAQAA7gEAAO8BAADwAQAA8QEAAPIBAADzAQAA9AEAAPUBAAD2AQAA9wEAAPgBAAD5AQAA+gEAAPsBAAD8AQAA/QEAAP4BAAD/AQAAAAIAAAECAAACAgAAAwIAAAQCAAAFAgAABgIAAAcCAAAIAgAACQIAAAoCAAALAgAADAIAAA0CAAAOAgAADwIAABACAAARAgAAEgIAABMCAAAUAgAAFQIAABYCAAAXAgAAGAIAABkCAAAaAgAAGwIAABwCAAAdAgAAHgIAAB8CAAAgAgAAIQIAACICAAAjAgAAJAIAACUCAAAmAgAAJwIAACgCAAApAgAAKgIAACsCAAAsAgAALQIAAC4CAAAvAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Humanoid" width="20" height="20" visible="0">
+  <data encoding="base64">
+   NQIAADYCAAA3AgAAOAIAADkCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Floor" width="20" height="20" visible="0">
+  <data encoding="base64">
+   awIAAK4CAABjAgAAlAIAAH4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Gateway" width="20" height="20">
+  <data encoding="base64">
+   6wIAAOoCAADpAgAA6AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Grass" width="20" height="20" visible="0">
+  <data encoding="base64">
+   7AIAAO0CAADuAgAA7wIAAPACAADxAgAA8gIAAPMCAAD0AgAA9QIAAPYCAAD3AgAA+AIAAPkCAAD6AgAA+wIAAPwCAAD9AgAA/gIAAP8CAAAAAwAAAQMAAAIDAAADAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Wall" width="20" height="20" visible="0">
+  <data encoding="base64">
+   BAMAAAUDAAAGAwAABwMAAAgDAAAJAwAACgMAAAsDAAAMAwAADQMAAA4DAAAPAwAAEAMAABEDAAASAwAAEwMAABQDAAAVAwAAFgMAABcDAAAYAwAAGQMAABoDAAAbAwAAHAMAAB0DAAAeAwAAHwMAACADAAAhAwAAIgMAACMDAAAkAwAAJQMAACYDAAAnAwAAKAMAACkDAAAqAwAAKwMAACwDAAAtAwAALgMAAC8DAAAwAwAAMQMAADIDAAAzAwAANAMAADUDAAA2AwAANwMAADgDAAA5AwAAOgMAADsDAAA8AwAAPQMAAD4DAAA/AwAAQAMAAEEDAABCAwAAQwMAAEQDAABFAwAARgMAAEcDAABIAwAASQMAAEoDAABLAwAATAMAAE0DAABOAwAATwMAAFADAABRAwAAUgMAAFMDAABUAwAAVQMAAFYDAABXAwAAWAMAAFkDAABaAwAAWwMAAFwDAABdAwAAXgMAAF8DAABgAwAAYQMAAGIDAABjAwAAZAMAAGUDAABmAwAAZwMAAGgDAABpAwAAagMAAGsDAABsAwAAbQMAAG4DAABvAwAAcAMAAHEDAAByAwAAcwMAAHQDAAB1AwAAdgMAAHcDAAB4AwAAeQMAAHoDAAB7AwAAfAMAAH0DAAB+AwAAfwMAAIADAACBAwAAggMAAIMDAACEAwAAhQMAAIYDAACHAwAAiAMAAIkDAACKAwAAiwMAAIwDAACNAwAAjgMAAI8DAACQAwAAkQMAAJIDAACTAwAAlAMAAJUDAACWAwAAlwMAAJgDAACZAwAAmgMAAJsDAACcAwAAnQMAAJ4DAACfAwAAoAMAAKEDAACiAwAAowMAAKQDAAClAwAApgMAAKcDAACoAwAAqQMAAKoDAACrAwAArAMAAK0DAACuAwAArwMAALADAACxAwAAsgMAALMDAAC0AwAAtQMAALYDAAC3AwAAuAMAALkDAAC6AwAAuwMAALwDAAC9AwAAvgMAAL8DAADAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Water" width="20" height="20" visible="0">
+  <data encoding="base64">
+   1wMAANgDAADZAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Ingots" width="20" height="20" visible="0">
+  <data encoding="base64">
+   2gMAANsDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Metals" width="20" height="20" visible="0">
+  <data encoding="base64">
+   3AMAAN0DAADeAwAA3wMAAOADAADhAwAA4gMAAOMDAADkAwAA5QMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Planks" width="20" height="20" visible="0">
+  <data encoding="base64">
+   5gMAAOcDAADoAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Coins" width="20" height="20" visible="0">
+  <data encoding="base64">
+   6QMAAOsDAADqAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Tools" width="20" height="20" visible="0">
+  <data encoding="base64">
+   7gMAAO8DAADwAwAA8wMAAPUDAAD2AwAA9wMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Trees" width="20" height="20" visible="0">
+  <data encoding="base64">
+   +AMAAPkDAAD6AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Stairs" width="20" height="20" visible="0">
+  <data encoding="base64">
+   +wMAAPwDAAD9AwAA/gMAAP8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Corpses" width="20" height="20" visible="0">
+  <data encoding="base64">
+   AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Leg" width="20" height="20" visible="0">
+  <data encoding="base64">
+   AwQAAAIEAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Log" width="20" height="20" visible="0">
+  <data encoding="base64">
+   BAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Vein" width="20" height="20" visible="0">
+  <data encoding="base64">
+   BQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+</map>
