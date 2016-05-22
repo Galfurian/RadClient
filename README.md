@@ -11,7 +11,7 @@ ______________
 This is a simple Mud Client written in Qt, specifically meant for the multi user dungeon RadMud.
 
 ______________
-### Change Log - For Developers
+### Change Log
 
 #### Version 1.0 (15/04/2015)
  * **ADD** [**Communication**]
