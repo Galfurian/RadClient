@@ -120,55 +120,50 @@ void SocketClient::lineReturnPressed(QString message)
 
 void SocketClient::readMessage()
 {
+    // Check the connection.
     if(!connnected)
     {
         return;
     }
-    buffer.clear();
+    // Clear the input buffer.
+    inputBuffer.clear();
+    // Untile there are bytes available, append the content to the input buffer.
     while (tcpSocket->bytesAvailable() > 0)
     {
-        buffer.append(tcpSocket->readAll());
+        inputBuffer.append(tcpSocket->readAll());
     }
-
-    int currentIndex = 0;
-    while (currentIndex < buffer.size())
+    // Set the index to the begin.
+    int index = 0;
+    while (index < inputBuffer.size())
     {
-        const uchar currentChar = uchar(buffer[currentIndex]);
-        if (currentChar == Common::DM)
+        // Retrieve the character at the index.
+        const uchar currentChar = uchar(inputBuffer.at(index));
+        // If it has to be Interpreted as Command.
+        if (currentChar == Common::IAC)
         {
-            this->addCommandToList("DM");
-            currentIndex += 1;
-        }
-        else if (currentChar == Common::IAC)
-        {
+            // Add the operation to the list.
             this->addCommandToList("IAC");
-            currentIndex += parseIAC(buffer.mid(currentIndex));
+            // Increment the index.
+            index++;
+            // Parse the telnet command.
+            this->parseIAC(inputBuffer, index);
         }
         else
         {
-            if(request == kRoomMap)
+            this->parseText(inputBuffer, index);
+            if (!parsedText.isEmpty())
             {
-                currentIndex += parseText(buffer.mid(currentIndex));
-                if (parsedText.isEmpty())
+                if(request == kRoomMap)
                 {
-                    continue;
+                    minimap->appendMap(parsedText);
                 }
-                minimap->appendMap(parsedText);
-            }
-            else if(request == kReceiveFormat)
-            {
-                currentIndex += parseText(buffer.mid(currentIndex));
-                if (!parsedText.isEmpty())
+                else if(request == kReceiveFormat)
                 {
                     this->applyFormat(parsedText);
                 }
-            }
-            else
-            {
-                currentIndex += parseText(buffer.mid(currentIndex));
-                if (!parsedText.isEmpty())
+                else
                 {
-                    terminal->insertPlainText(stripCR(parsedText));
+                    terminal->insertPlainText(this->stripCR(parsedText));
                     terminal->verticalScrollBar()->setValue(terminal->verticalScrollBar()->maximum());
                 }
             }
@@ -176,12 +171,13 @@ void SocketClient::readMessage()
     }
 }
 
-int SocketClient::parseText(const QByteArray & data)
+void SocketClient::parseText(const QByteArray & data, int & index)
 {
+    qInfo() << "Parsing Text...";
     // Total consumed characters.
     int consumed = 0;
     // Length of the string from the start to the first occurrence of '\0'.
-    int length = data.indexOf('\0');
+    int length = data.indexOf('\0', index);
     // If there is no '\0' inside the string, use the entire length of the string instead.
     if (length == -1)
     {
@@ -196,76 +192,166 @@ int SocketClient::parseText(const QByteArray & data)
     // First clear the parsed text container.
     parsedText.clear();
     // Get the string of the desired length.
-    parsedText = QString::fromLocal8Bit(data.constData(), length);
-    // Return the number of consumed characters.
-    return consumed;
+    parsedText = QString::fromLocal8Bit(data.mid(index).constData(), length);
+    // Increment the index based on the number of consumed characters.
+    index += consumed;
 }
 
-int SocketClient::parseIAC(const QByteArray & data)
+void SocketClient::parseIAC(const QByteArray & data, int & index)
 {
-    if (data.isEmpty())
+    qInfo() << "Parsing IAC...";
+    if (!data.isEmpty())
     {
-        return 0;
+        if (this->isOperation(data.at(index)))
+        {
+            qInfo() << "Found operation...";
+            const uchar operation = data.at(index);
+            if (operation == Common::DO)
+            {
+                // Add the operation to the list.
+                this->addCommandToList("DO");
+                // Increment the index.
+                index++;
+                // Check if we are out of bound.
+                if(index > data.size())
+                {
+                    return;
+                }
+                // Retrieve the option.
+                const uchar option = data.at(index);
+                if(option == Common::CLR_MAP)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("CLR_MAP");
+                    // Increment the index.
+                    index++;
+                    // Execute the operation.
+                    minimap->clearMap();
+                }
+                else if(option == Common::DRAW_MAP)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("ROOM_MAP");
+                    // Increment the index.
+                    index++;
+                    // Set the request.
+                    request = kRoomMap;
+                }
+                else if(option == Common::FORMAT)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("FORMAT");
+                    // Increment the index.
+                    index++;
+                    // Set the request.
+                    request = kReceiveFormat;
+                }
+            }
+            else if(operation == Common::DONT)
+            {
+                // Add the operation to the list.
+                this->addCommandToList("DONT");
+                // Increment the index.
+                index++;
+                // Check if we are out of bound.
+                if(index > data.size())
+                {
+                    return;
+                }
+                // Retrieve the option.
+                const uchar option = data.at(index);
+                if(option == Common::DRAW_MAP)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("ROOM_MAP");
+                    // Increment the index.
+                    index++;
+                    // Set the request.
+                    request = kNoRequest;
+                }
+                else if(option == Common::FORMAT)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("FORMAT");
+                    // Increment the index.
+                    index++;
+                    // Set the request.
+                    request = kNoRequest;
+                }
+            }
+            else if (operation == Common::WILL)
+            {
+                // Add the operation to the list.
+                this->addCommandToList("WILL");
+                // Increment the index.
+                index++;
+                // Check if we are out of bound.
+                if(index > data.size())
+                {
+                    return;
+                }
+                // Retrieve the option.
+                const uchar option = data.at(index);
+                if(option == Common::MSDP)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("MSDP");
+                    // Increment the index.
+                    index++;
+                    // Handle the request.
+                    this->handleMSDP();
+                }
+                else if(option == Common::MCCP1)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("MCCP1");
+                    // Increment the index.
+                    index++;
+                    // Handle the request.
+                    this->handleMCCP1();
+                }
+                else if(option == Common::MCCP2)
+                {
+                    // Add the operation to the list.
+                    this->addCommandToList("MCCP2");
+                    // Increment the index.
+                    index++;
+                    // Handle the request.
+                    this->handleMCCP2();
+                }
+            }
+            else if (operation == Common::WONT)
+            {
+                // Add the operation to the list.
+                this->addCommandToList("WONT");
+                // Increment the index.
+                index++;
+            }
+            else
+            {
+                qInfo() << "Operation not recognized...";
+                // Increment the index.
+                index++;
+            }
+        }
+        else
+        {
+            qInfo() << "Is not operation...";
+        }
     }
-
-    if (data.size() >= 2 && isCommand(data[1]))
+    else
     {
-        return 2;
+        qInfo() << "Data is empty...";
     }
-
-    if (data.size() >= 3 && isOperation(data[1]))
+    if(index < data.size())
     {
-        const uchar operation = data[1];
-        const uchar option    = data[2];
-
-        // If WONT Logout, disconnect.
-        if (operation == Common::WONT)
+        if((data.at(index) == '\n') || (data.at(index) == '\0'))
         {
-            this->addCommandToList("WONT");
-            this->disconnectFromHost();
+            qInfo() << "Remove closing character...";
+            // Increment the index.
+            index++;
         }
-
-        if (operation == Common::DO)
-        {
-            this->addCommandToList("DO");
-            if(option == Common::CLR_MAP)
-            {
-                this->addCommandToList("CLR_MAP");
-                minimap->clearMap();
-                return 4;
-            }
-            else if(option == Common::DRAW_MAP)
-            {
-                this->addCommandToList("ROOM_MAP");
-                request = kRoomMap;
-                return 4;
-            }
-            else if(option == Common::FORMAT)
-            {
-                this->addCommandToList("FORMAT");
-                request = kReceiveFormat;
-                return 4;
-            }
-        }
-        else if(operation == Common::DONT)
-        {
-            this->addCommandToList("DONT");
-            if(option == Common::DRAW_MAP)
-            {
-                this->addCommandToList("ROOM_MAP");
-                request = kNoRequest;
-                return 4;
-            }
-            else if(option == Common::FORMAT)
-            {
-                this->addCommandToList("FORMAT");
-                request = kNoRequest;
-                return 4;
-            }
-        }
-        return 3;
     }
-    return 0;
 }
 
 void SocketClient::connectionError(QAbstractSocket::SocketError error)
@@ -293,6 +379,48 @@ void SocketClient::connectionError(QAbstractSocket::SocketError error)
     tcpSocket->abort();
     tcpSocket->close();
     connnected = false;
+}
+
+void SocketClient::handleMSDP()
+{
+    // Prepare the response.
+    QString response;
+    response.append(static_cast<char>(Common::IAC));
+    response.append(static_cast<char>(Common::DONT));
+    response.append(static_cast<char>(Common::MSDP));
+    response.append('\n');
+    // Send the response.
+    this->sendMessage(response);
+    // Add the operation to the list.
+    this->addCommandToList("Response: IAC-DONT-MSDP");
+}
+
+void SocketClient::handleMCCP1()
+{
+    // Prepare the response.
+    QString response;
+    response.append(static_cast<char>(Common::IAC));
+    response.append(static_cast<char>(Common::DONT));
+    response.append(static_cast<char>(Common::MCCP1));
+    response.append('\n');
+    // Send the response.
+    this->sendMessage(response);
+    // Add the operation to the list.
+    this->addCommandToList("Response: IAC-DONT-MCCP1");
+}
+
+void SocketClient::handleMCCP2()
+{
+    // Prepare the response.
+    QString response;
+    response.append(static_cast<char>(Common::IAC));
+    response.append(static_cast<char>(Common::DONT));
+    response.append(static_cast<char>(Common::MCCP2));
+    response.append('\n');
+    // Send the response.
+    this->sendMessage(response);
+    // Add the operation to the list.
+    this->addCommandToList("Response: IAC-DONT-MCCP2");
 }
 
 QString SocketClient::stripCR(const QString & message)

@@ -49,9 +49,13 @@ class SocketClient: public QWidget
         void lineReturnPressed(QString message);
 
         void readMessage();
-        int parseText(const QByteArray & data);
-        int parseIAC(const QByteArray & data);
+        void parseText(const QByteArray & data, int & index);
+        void parseIAC(const QByteArray & data, int & index);
         void connectionError(QAbstractSocket::SocketError error);
+
+        void handleMSDP();
+        void handleMCCP1();
+        void handleMCCP2();
 
     private: // FUNCTIONS
         QString stripCR(const QString & message);
@@ -63,7 +67,7 @@ class SocketClient: public QWidget
         // Connection
         QTcpSocket * tcpSocket;
         // Connection buffer.
-        QByteArray buffer;
+        QByteArray inputBuffer;
         // Connection status.
         bool connnected;
 
